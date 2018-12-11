@@ -1,15 +1,16 @@
-name        : gtk-theme-bluebird
-version     : 1.2
-release     : 3
-source      :
-    - https://github.com/shimmerproject/Bluebird/archive/v1.2.tar.gz : f76520181d9cb74a0cf1c61728ab02a7fb5f0835fef036ebd68f1e89caa0c579
-homepage    : http://shimmerproject.org/project/bluebird/
-license     : GPL-2.0
-summary     : GTK Theme Suite - Bluebird
-description : |
+name       : gtk-theme-bluebird
+version    : '1.3'
+release    : 4
+source     :
+    - https://github.com/shimmerproject/Bluebird/archive/v1.3.tar.gz : b8da767c0ed66e2c0e8c2f78a8c827d8757634179b114a1352590f4e6d0b32c8
+homepage   : http://shimmerproject.org/project/bluebird/
+license    : GPL-2.0
+summary    : GTK Theme Suite - Bluebird
+description: |
     GTK Theme Suite - Bluebird
-setup      : |
-build      : |
+component  : desktop.theme
+setup      : ""
+build      : ""
 install    : |
     mkdir -p %installroot%/usr/share/themes/BlueBird
     mv * %installroot%/usr/share/themes/BlueBird/

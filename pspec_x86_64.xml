@@ -3,10 +3,11 @@
         <Name>gtk-theme-bluebird</Name>
         <Homepage>http://shimmerproject.org/project/bluebird/</Homepage>
         <Packager>
-            <Name>Solus Packaging Team</Name>
-            <Email>packaging@solus-project.com</Email>
+            <Name>Jarno Turkki</Name>
+            <Email>watpi@posteo.net</Email>
         </Packager>
         <License>GPL-2.0</License>
+        <PartOf>desktop.theme</PartOf>
         <Summary xml:lang="en">GTK Theme Suite - Bluebird</Summary>
         <Description xml:lang="en">GTK Theme Suite - Bluebird
 </Description>
@@ -19,16 +20,241 @@
 </Description>
         <PartOf>desktop.theme</PartOf>
         <Files>
-            <Path fileType="data">/usr/share/themes</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/LICENSE.CC</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/LICENSE.GPL</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/Makefile.am</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/README.md</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/autogen.sh</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/configure.ac</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Bars/menubar.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Breadcrumbs/breadcrumb_active.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Breadcrumbs/breadcrumb_normal.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Breadcrumbs/breadcrumb_prelight.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Breadcrumbs/left_slider_normal.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Breadcrumbs/right_slider_normal.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Handles/handle-nautilus.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Handles/resize_grip.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Others/arrow-d.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Others/bg.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Others/launcherfix.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Others/null.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/arrow-blank.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/arrow-down.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/handle-h.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/handle-v.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/panel-bg.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/panel-button-active.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/panel-button-hover.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Panel/panel-button-inactive.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Range/slider-prelight.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Range/slider.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Range/trough.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/Tabs/close.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/bars.rc</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/gtkrc</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/nautilus.rc</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-2.0/panel.rc</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/Gemfile</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/README</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_colors-public.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_colors.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_common.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_drawing.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_gnome-apps.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_lightdm-gtk-greeter.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_others.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_unity.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/_xfce.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/apps/granite-widgets.css</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/apps/lightdm-unity-greeter.css</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/bullet-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/bullet-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/check-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/check-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-active-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-backdrop-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-checked-active-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-checked-backdrop-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-checked-hover-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-checked-insensitive.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-hover-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-mixed-hover.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-mixed-insensitive.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-mixed.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-selectionmode.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/checkbox-unchecked-insensitive.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/dash-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/dash-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/grid-selection-checked.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/grid-selection-unchecked.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/pane-separator-vertical.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/pane-separator.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/resize-grip.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-active-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-active-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-active-dark@2.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-active.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-active@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-active@2.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-backdrop-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-backdrop-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-backdrop.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-backdrop@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-dark@2.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-hover-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-hover-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-hover.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-hover@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close-hover@2.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-close@2.svg</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-active-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-active-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-active.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-active@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-backdrop-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-backdrop-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-backdrop.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-backdrop@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-hover-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-hover-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-hover.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize-hover@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-maximize@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-active-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-active-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-active.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-active@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-backdrop-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-backdrop-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-backdrop.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-backdrop@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-hover-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-hover-dark@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-hover.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize-hover@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/assets/titlebutton-minimize@2.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk-contained-dark.css</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk-contained-dark.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk-contained.css</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk-contained.scss</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk-dark.css</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk.css</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/gtk.gresource.xml</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/gtk-3.0/settings.ini</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/index.theme</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/close-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/close-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/close-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/close-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/hide-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/hide-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/hide-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/hide-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/maximize-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/maximize-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/maximize-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/maximize-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/menu-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/menu-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/menu-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/metacity-theme-1.xml</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/metacity-theme-2.xml</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-toggled-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-toggled-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-toggled-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/shade-toggled-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-toggled-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-toggled-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-toggled-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/metacity-1/stick-toggled-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/parse-sass.sh</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/bottom-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/bottom-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/bottom-left-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/bottom-left-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/bottom-right-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/bottom-right-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-active.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-inactive.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-prelight.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-pressed.png</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/close-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/hide-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/hide-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/hide-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/hide-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/left-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/left-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/maximize-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/maximize-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/maximize-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/maximize-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/menu-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/menu-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/menu-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/right-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/right-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-toggled-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-toggled-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-toggled-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/shade-toggled-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-toggled-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-toggled-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-toggled-prelight.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/stick-toggled-pressed.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/themerc</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-1-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-1-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-2-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-2-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-3-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-3-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-4-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-4-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-5-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/title-5-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/top-left-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/top-left-inactive.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/top-right-active.xpm</Path>
+            <Path fileType="data">/usr/share/themes/BlueBird/xfwm4/top-right-inactive.xpm</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2015-05-06</Date>
-            <Version>1.2</Version>
+        <Update release="4">
+            <Date>2018-12-08</Date>
+            <Version>1.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Solus Packaging Team</Name>
-            <Email>packaging@solus-project.com</Email>
+            <Name>Jarno Turkki</Name>
+            <Email>watpi@posteo.net</Email>
         </Update>
     </History>
 </PISI>
